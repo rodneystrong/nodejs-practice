@@ -1,0 +1,16 @@
+{
+  "rooms": [
+    {
+      "name": "alex",
+      "size": 10
+    },
+    {
+      "name": "richie",
+      "size": 20
+    },
+    {
+      "name": "kyle",
+      "size": 60
+    }
+  ]
+}

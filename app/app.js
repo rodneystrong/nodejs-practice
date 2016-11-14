@@ -1,14 +1,15 @@
 var express = require('express');
-
 var app = express();
+var data = require('./data/data.json');
+
 
 app.get('/', function(req, res) {
   res.send('<h1>Helloooo Kyle</h1>');
-})
+});
 
 var myServer = app.listen(3000, function() {
   console.log('go to port 3000 now dood');
-})
+});
 
 // var http = require('http');
 //

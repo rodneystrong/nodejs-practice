@@ -9,7 +9,9 @@ app.get('/', function(req, res) {
 
 app.get('/narnia', function(req, res) {
   res.send(`
-    ${data.rooms[1].name}
+    <h1>${data.rooms[1].name}</h1>
+    <h2>ok kyle</h2>
+    ${data.rooms[2].size}
     `);
 })
 

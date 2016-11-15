@@ -7,6 +7,12 @@ app.get('/', function(req, res) {
   res.send('<h1>Helloooo Kyle</h1>');
 });
 
+app.get('/narnia', function(req, res) {
+  res.send(`
+    ${data.rooms[1].name}
+    `);
+})
+
 var myServer = app.listen(3000, function() {
   console.log('go to port 3000 now dood');
 });
